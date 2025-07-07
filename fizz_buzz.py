@@ -1,4 +1,4 @@
-def determine_output(number):
+def fizz_buzz(number):
 
     result = str(number)
     
@@ -17,7 +17,7 @@ def determine_output(number):
 def main():
 
     for i in range(1, 101):
-        output = determine_output(i)
+        output = fizz_buzz(i)
         print(output)
 
 if __name__ == "__main__":
